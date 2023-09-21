@@ -7,7 +7,7 @@ pipeline{
 				echo "mvn --version"
 			}
 		}
-	}
+	
 		stage('Test'){
 			steps{
 				echo "Test"
@@ -30,5 +30,6 @@ pipeline{
 			echo 'I run when you fail'
 		}
 	}
+}
 
 
